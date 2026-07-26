@@ -86,11 +86,9 @@ The project demonstrates several important cloud engineering concepts including:
 
 # 🏗 Architecture Diagram
 
-> **Replace the image below with your own architecture diagram.**
-
 <p align="center">
 
-![Architecture](screenshots/architecture.png)
+![Architecture](images/architecture.png)
 
 </p>
 
@@ -206,8 +204,6 @@ three-tier-aws-terraform-ansible/
 ├── LICENSE
 └── README.md
 ```
-
----
 
 ---
 
@@ -495,7 +491,7 @@ The following screenshot shows the successful execution of `terraform apply`, co
 
 <p align="center">
 
-![Terraform Apply Output](screenshots/terraform_apply.png)
+![Terraform Apply Output](images/terraform_apply.png)
 
 </p>
 
@@ -507,7 +503,7 @@ The custom Virtual Private Cloud (VPC) provides network isolation for all AWS re
 
 <p align="center">
 
-![VPC](screenshots/vpc.png)
+![VPC](images/vpc.png)
 
 </p>
 
@@ -519,7 +515,7 @@ The infrastructure consists of two public subnets and two private subnets distri
 
 <p align="center">
 
-![Subnets](screenshots/subnets.png)
+![Subnets](images/subnets.png)
 
 </p>
 
@@ -531,7 +527,7 @@ Route Tables manage network traffic by defining routes for both public and priva
 
 <p align="center">
 
-![Route Tables](screenshots/route_tables.png)
+![Route Tables](images/route_tables.png)
 
 </p>
 
@@ -543,7 +539,7 @@ The Internet Gateway enables internet connectivity for resources deployed inside
 
 <p align="center">
 
-![Internet Gateway](screenshots/internet_gateway.png)
+![Internet Gateway](images/internet_gateway.png)
 
 </p>
 
@@ -555,7 +551,7 @@ The NAT Gateway provides secure outbound internet access for EC2 instances runni
 
 <p align="center">
 
-![NAT Gateway](screenshots/nat_gateway.png)
+![NAT Gateway](images/nat_gateway.png)
 
 </p>
 
@@ -567,7 +563,7 @@ Security Groups act as virtual firewalls that control inbound and outbound traff
 
 <p align="center">
 
-![Security Groups](screenshots/security_groups.png)
+![Security Groups](images/security_groups.png)
 
 </p>
 
@@ -582,7 +578,7 @@ The deployment includes two EC2 instances:
 
 <p align="center">
 
-![EC2 Instances](screenshots/ec2_instances.png)
+![EC2 Instances](images/ec2_instances.png)
 
 </p>
 
@@ -594,7 +590,7 @@ The Bastion Host provides secure SSH access to the private EC2 Web Server.
 
 <p align="center">
 
-![Bastion Login](screenshots/bastion_login.png)
+![Bastion Login](images/bastion_login.png)
 
 </p>
 
@@ -606,7 +602,7 @@ The Application Load Balancer distributes incoming HTTP requests to the Web Serv
 
 <p align="center">
 
-![Application Load Balancer](screenshots/application_load_balancer.png)
+![Application Load Balancer](images/application_load_balancer.png)
 
 </p>
 
@@ -618,7 +614,7 @@ The Target Group performs periodic health checks to ensure traffic is routed onl
 
 <p align="center">
 
-![Target Group](screenshots/target_group_health.png)
+![Target Group](images/target_group.png)
 
 </p>
 
@@ -630,7 +626,7 @@ Amazon RDS provides a fully managed MySQL database deployed securely inside the 
 
 <p align="center">
 
-![Amazon RDS](screenshots/rds_mysql.png)
+![Amazon RDS](images/rds_mysql.png)
 
 </p>
 
@@ -642,7 +638,7 @@ The following screenshot demonstrates the successful execution of the Ansible Pl
 
 <p align="center">
 
-![Ansible Playbook](screenshots/ansible_playbook.png)
+![Ansible Playbook](images/ansible_playbook.png)
 
 </p>
 
