@@ -630,21 +630,10 @@ Amazon RDS provides a fully managed MySQL database deployed securely inside the 
 
 </p>
 
----
-
-# 1️⃣3️⃣ Successful Ansible Playbook Execution
-
-The following screenshot demonstrates the successful execution of the Ansible Playbook used to configure the EC2 Web Server.
-
-<p align="center">
-
-![Ansible Playbook](images/ansible_playbook.png)
-
-</p>
 
 ---
 
-# 1️⃣4️⃣ Apache Running on the Web Server
+# 1️⃣3️⃣ Apache Running on the Web Server
 
 Apache HTTP Server is successfully installed and running on the EC2 Web Server.
 
@@ -658,13 +647,13 @@ Apache HTTP Server is successfully installed and running on the EC2 Web Server.
 
 ---
 
-# 1️⃣5️⃣ Web Application Accessible through the Load Balancer
+# 1️⃣4️⃣ Web Application Accessible through the Load Balancer
 
 The deployed web application is successfully accessible using the DNS Name of the Application Load Balancer.
 
 <p align="center">
 
-![Website](screenshots/website_load_balancer.png)
+![Website](screenshots/ansible_playbook.png)
 
 </p>
 
