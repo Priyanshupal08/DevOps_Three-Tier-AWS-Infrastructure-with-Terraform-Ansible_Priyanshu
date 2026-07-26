@@ -653,7 +653,7 @@ The deployed web application is successfully accessible using the DNS Name of th
 
 <p align="center">
 
-![Website](screenshots/ansible_playbook.png)
+![Website](images/ansible_playbook.png)
 
 </p>
 
