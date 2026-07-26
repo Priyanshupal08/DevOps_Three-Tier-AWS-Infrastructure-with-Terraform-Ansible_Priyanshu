@@ -633,21 +633,8 @@ Amazon RDS provides a fully managed MySQL database deployed securely inside the 
 
 ---
 
-# 1️⃣3️⃣ Apache Running on the Web Server
 
-Apache HTTP Server is successfully installed and running on the EC2 Web Server.
-
-> **Note:** If your instructor specifically asked for **Nginx**, replace this section only if your project actually uses Nginx. Since your project uses **Apache**, it is better to keep this accurate.
-
-<p align="center">
-
-![Apache Running](screenshots/apache_running.png)
-
-</p>
-
----
-
-# 1️⃣4️⃣ Web Application Accessible through the Load Balancer
+# 1️⃣3️⃣ Web Application Accessible through the Load Balancer
 
 The deployed web application is successfully accessible using the DNS Name of the Application Load Balancer.
 
